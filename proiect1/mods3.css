@@ -1,0 +1,96 @@
+.head-img {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.pfoot {
+    text-align: center;
+}
+
+body {
+   /* background-color: rgb(77, 77, 77); */
+   margin-top: 0%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 0%;
+   background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    padding: 3px;
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0 8px 4px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: auto;
+ 
+}
+
+.nav-link {
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 10px 100px;
+    padding: 0.8rem;
+
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+
+.s0 {
+    border: 1px black solid;
+    background: white;
+    padding: 1rem;
+}
+
+.img-pintro {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.pcont1-img {
+    width: 100%;
+    max-width: 500px;
+    float: left;
+    padding: 10px 15px 0px 0px;
+}
+
+.pcont1-img2 {
+    width: 100%;
+    max-width: 500px;
+    float: right;
+    padding: 10px 0px 0px 15px;
+}
+
+.pintro, .pcont, .pcont1, .pcont2 {
+    text-align: justify;
+}
+
+.pcont2-img {
+    width: 100%;
+    max-width: 300px;
+    float: right;
+    padding: 0px 0px 0px 15px;
+}
+
+.bpr {
+    background: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+
+.castravete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

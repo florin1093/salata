@@ -1,0 +1,126 @@
+.head-img {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.pfoot {
+    text-align: center;
+}
+
+body {
+   /* background-color: rgb(77, 77, 77); */
+   margin-top: 0%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 0%;
+   background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    padding: 3px;
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0 8px 4px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: auto;
+ 
+}
+
+.nav-link {
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 10px 100px;
+    padding: 0.8rem;
+
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+
+.s0 {
+    border: 1px black solid;
+    background: white;
+    padding: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    outline: none;
+    background-color: grey;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+    margin: 5px 0px;
+}
+  
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.intro {
+    padding: 10px;    
+}
+
+.hint, .hidei, .htip, .hben {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.int, .ide, .tip, .ben {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.img1, .img2 {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.idei {
+    padding: 10px;
+}
+
+.ide_img {
+    width: 100%;
+    max-width: 250px;
+    float: right;
+}
+
+.tipuri{
+    padding: 10px;
+}
+
+.butoane {
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    margin-left: 50px;
+}
